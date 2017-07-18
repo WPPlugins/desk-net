@@ -1,0 +1,124 @@
+.desk-net-desc {
+    padding-left: 33px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.desk-net-desc a {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+.desk-net-desc img {
+    border: 1px solid #c5c5c5;
+    margin: 0 0 -4px 10px;
+}
+.desk-net-id {
+    margin-top: 10px;
+    margin-left: 33px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.desk-net-id a {
+    margin-left: 10px;
+}
+.b-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form-table p > strong {
+    padding-right: 20px;
+}
+.matching-page .content,.matching-page .content select {
+    width: 275px;
+}
+.matching-page .category,.matching-page .category select {
+    width: 215px;
+}
+.matching-page .status, .matching-page .status select {
+    width: 145px;
+}
+.matching-page .text-arrow {
+    font-weight: bold;
+}
+.matching-page.status {
+    width: 330px;
+    max-width: 330px;
+}
+.page-matching .label {
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #23282d;
+}
+.clear-padding {
+    width: 400px;
+    max-width: 400px;
+    border-spacing: 0;
+}
+.clear-padding td {
+    padding: 0 10px 5px 0;
+}
+.clear-padding select {
+    float: right;
+}
+.min-w142{
+    min-width: 142px !important;
+}
+.select-width select{
+    width: 245px;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal p {
+    font-size: 16px;
+    text-align: center;
+}
+.modal .position-control-element{
+    text-align: center;
+}
+.modal .button {
+    margin: 0 10px 0;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    min-width: 300px;
+    max-width: 400px;
+    width: 40%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#generate-credentials .submit {
+    display: none;
+}
